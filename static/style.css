@@ -1,0 +1,134 @@
+@font-face {
+    font-family: hey;
+    src: url(./Cyber-Bold.ttf);
+}
+@font-face {
+    font-family: heyy;
+    src: url(./CANAVAR.ttf);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #13446f;
+    margin: 0;
+    background-image: url('./bg2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+  .logo {
+            width: 50px; /* Adjust the size as needed */
+            height: 50px; /* Adjust the size as needed */
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 20px; /* Space between the logo and the other nav items */
+        }
+h1 {
+    text-align: center;
+    color: #f3eded;
+    margin-top: 20px;
+    font-family: hey;
+}
+#head1 {
+    font-family: heyy;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+label {
+    margin: 10px 0 5px;
+    color: #d6d2d2;
+}
+
+select, input, button {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+    text-align: center;
+    color: red;
+}
+
+h2 {
+    text-align: center;
+    color: #403f3f;
+    margin-top: 20px;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+.transparent-container {
+    background: rgba(18, 5, 5, 0.8); /* White background with 80% opacity */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the container */
+    max-width: 500px; /* Maximum width of the container */
+    margin: 50px auto; /* Center the container horizontally and add top margin */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: Add a shadow for better visibility */
+    color:white;
+}
