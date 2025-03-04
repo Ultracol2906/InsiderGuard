@@ -32,11 +32,11 @@ twilio_number = '+13313168917'
 my_phone_number = '+918618815497'
 
 # Email credentials (update with your own)
-MODERATOR_EMAIL = "deekshajagadeesh13@gmail.com"
+MODERATOR_EMAIL = "deekshajagadeesh13@gmail.com" #add receiver email
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-EMAIL_USERNAME = "abhinavmp4@gmail.com"
-EMAIL_PASSWORD = "jnug skoa tabz ykxi"
+EMAIL_USERNAME = "" #add your email
+EMAIL_PASSWORD = "" #add your email pwd
 
 # Central server details
 CENTRAL_SERVER_IP = "192.168.19.228"  # Replace with the actual IP address or hostname
